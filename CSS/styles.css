@@ -1,0 +1,270 @@
+/*GENERICS START HERE**********************************************************/
+body
+{
+  background-image: url("../Images/Website_Background.png");
+  position: relative;
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+  color: #DBDBDB;
+  text-align: center;
+}
+
+h1
+{
+  font-family: 'Aldrich', sans-serif;
+  text-shadow: 0 0 5px #C95CF7, 2px 2px 2px #000000;
+  font-size: 33.3px;
+}
+
+h2
+{
+  font-family: 'Aldrich', sans-serif;
+  text-shadow: 0 0 5px #C95CF7, 2px 2px 2px #000000;
+  font-size: 25.3px;
+}
+
+h4
+{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*GENERICS END HERE************************************************************/
+/*MACRO-SECTIONS START HERE****************************************************/
+
+.wrpr
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header
+{
+  position: relative;
+  height: 200px;
+  display: block;
+}
+
+.middle
+{
+  min-height: calc(100vh - 350px);
+  display: flex;
+}
+
+.footer
+{
+  height: 150px;
+  display: flex;
+}
+
+/*MACRO-SECTIONS END HERE******************************************************/
+/*MICRO-SECTIONS START HERE****************************************************/
+/*THROUGHOUT THE PAGE STARTS HERE**********************************************/
+
+.outsetBox
+{
+  background-image: linear-gradient(to bottom, #2B5254, #131A16);
+  border-style: outset;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #243835;
+}
+
+.boxSelection
+{
+  background-image: linear-gradient(to bottom, #2B5254, #131A16);
+  padding: 30px;
+  border-style: outset;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #243835;
+}
+
+.insetBox
+{
+  width: 256px;
+  height: 256px;
+  border-style: inset;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #243835;
+}
+
+.button:hover
+{
+  border-color: #64DFDF;
+}
+
+.button:active
+{
+  border-style: inset;
+}
+
+.croppedImage
+{
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.invisibleLink
+{
+  text-decoration: none;
+  color: #DBDBDB;
+}
+
+.visibleLink
+{
+  color: #80FFDB;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 0;
+}
+
+.visibleLink:hover
+{
+  color: #80FFDB;
+  text-shadow: 0 0 3px #DBDBDB;
+}
+
+.bioParagraph
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: outset;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #1C1C1C;
+  font-size: 20px;
+}
+
+.leftCenteredText
+{
+  text-align: left;
+}
+
+/*THROUGHOUT THE PAGE ENDS HERE************************************************/
+/*HEADER STARTS HERE***********************************************************/
+
+.title
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.subtitle
+{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.navbar
+{
+  position: absolute;
+  top: 120px;
+  width: calc(100% - 3px);
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navbarItem
+{
+  flex-grow: 1;
+}
+
+/*HEADER ENDS HERE*************************************************************/
+/*FOOTER STARTS HERE***********************************************************/
+
+.footerElement
+{
+  flex-grow: 1;
+}
+
+/*FOOTER END*******************************************************************/
+/*ABOUT ME MIDDLE STARTS HERE**************************************************/
+
+.aboutMeMiddle
+{
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*ABOUT ME MIDDLE ENDS HERE****************************************************/
+/*CREDITS MIDDLE STARTS HERE***************************************************/
+
+.creditsMiddle
+{
+  display: flex;
+  justify-content: center;
+}
+
+.centeredList
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*CREDITS MIDDLE ENDS HERE*****************************************************/
+/*HOME MIDDLE STARTS HERE******************************************************/
+
+.homeMiddle
+{
+  margin: 30px auto;
+  width: 100%;
+  min-height: calc(100vh - 410px);
+  grid-row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/*HOME MIDDLE ENDS HERE********************************************************/
+/*LANGUAGE MIDDLE STARTS HERE**************************************************/
+
+.languageMiddle
+{
+  margin: 0 auto;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*LANGUAGE MIDDLE ENDS HERE****************************************************/
+/*PROJECTS MIDDLE STARTS HERE**************************************************/
+
+.surroundImage
+{
+  float: left;
+  margin: auto;
+  margin-right: 10px;
+}
+
+/*PROJECTS MIDDLE ENDS HERE****************************************************/
+/*3D MIDDLE STARTS HERE********************************************************/
+
+.threeDMiddle
+{
+  margin: 30px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/*3D MIDDLE ENDS HERE**********************************************************/
